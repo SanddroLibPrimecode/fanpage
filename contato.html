@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="ISO-8859-1” />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contato - Portfólio</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header class="container">
+    <h1>Contato</h1>
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="sobre.html">Sobre</a>
+    <a class="ativo" href="contato.html">Contato</a>
+    </nav>
+    </header>
+    <main class="container">
+    <form class="form" id="form-contato">
+    <label>Nome
+    <input type="text" name="nome" required minlength="2" />
+    </label>
+    <label>E-mail
+    <input type="email" name="email" required />
+    </label>
+    <label>Mensagem
+    <textarea name="mensagem" rows="5" required></textarea>
+    </label>
+    <button type="submit">Enviar</button>
+    <p class="msg" id="msg"></p>
+    </form>
+    </main>
+    <footer class="container">
+    <small>© <span id="ano"></span> Seu Nome</small>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
